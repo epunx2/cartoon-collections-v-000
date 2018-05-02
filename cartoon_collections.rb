@@ -1,14 +1,10 @@
 def roll_call_dwarves(dwarves)# code an argument here
-  i = 0
+  counter = 1
   dwarves.each do |dwarf|
-    yield(dwarf, dwarves[i])
-    i += 1
+    puts "#{counter}. #{dwarf}"
+    counter += 1
   end# Your code here
 end
-
-roll_call_dwarves.each_with_index {|dwarf, index|
-  puts "#{index}. #{dwarf}"
-}
 
 def summon_captain_planet(planeteer)# code an argument here
   # Your code here
