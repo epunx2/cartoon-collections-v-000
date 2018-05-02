@@ -7,7 +7,10 @@ def roll_call_dwarves(dwarves)# code an argument here
 end
 
 def summon_captain_planet(planeteer)# code an argument here
-  # Your code here
+  planeteer.map! {|name|
+    name.capitalizes
+    name << "!"
+  }# Your code here
 end
 
 def long_planeteer_calls# code an argument here
