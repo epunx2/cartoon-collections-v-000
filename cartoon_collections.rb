@@ -8,7 +8,7 @@ end
 
 def summon_captain_planet(planeteer)# code an argument here
   planeteer.map! {|name|
-    name.capitalizes
+    name.capitalize
     name << "!"
   }# Your code here
 end
