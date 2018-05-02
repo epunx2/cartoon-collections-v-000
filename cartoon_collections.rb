@@ -30,6 +30,6 @@ def find_the_cheese(array)# code an argument here
         return food
       end
     end
-    return nil
   end
+  return nil
 end
